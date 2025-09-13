@@ -1,0 +1,18 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>aFsYGGABot – Команды</title>
+    <link>http://localhost:1313/cmd/</link>
+    <description>Recent content in Команды on aFsYGGABot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru-ru</language>
+    
+	  <atom:link href="http://localhost:1313/cmd/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+  </channel>
+</rss>
