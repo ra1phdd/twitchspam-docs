@@ -1,1 +1,17 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>aFsYGGABot – 🤖 aFsYGGABot</title><link>https://example.org/</link><description>Recent content in 🤖 aFsYGGABot on aFsYGGABot</description><generator>Hugo -- gohugo.io</generator><language>ru-ru</language><atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>aFsYGGABot – 🤖 aFsYGGABot</title>
+    <link>https://example.org/</link>
+    <description>Recent content in 🤖 aFsYGGABot on aFsYGGABot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru-ru</language>
+    
+	  <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+      
+    
+    
+  </channel>
+</rss>

@@ -1,0 +1,18 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>aFsYGGABot – Массбан</title>
+    <link>https://example.org/nuke/</link>
+    <description>Recent content in Массбан on aFsYGGABot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru-ru</language>
+    
+	  <atom:link href="https://example.org/nuke/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+  </channel>
+</rss>
