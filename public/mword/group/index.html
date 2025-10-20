@@ -56,7 +56,7 @@
 !am mwg list Выводит список всех мворд-групп с параметрами: глобальные наказания, глобальные опции и список слов/регулярных выражений с их индивидуальными параметрами.
 Пример:
 !am mwg list !am mwg create Создаёт новую мворд-группу с указанными глобальными наказаниями и опциями. Группа активна по умолчанию.">
-  <meta itemprop="wordCount" content="345">
+  <meta itemprop="wordCount" content="454">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Группы мутвордов">
   <meta name="twitter:description" content="Команды этого раздела позволяют создавать, настраивать и управлять группами запрещённых слов (мутворд группы). Эти группы применяются для автоматического контроля поведения пользователей.
@@ -661,6 +661,10 @@
         </a>
       </li>
       <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:ltr:pl-4 hx:rtl:pr-4 hx:inline-block hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:break-words" href="#am-mwg-glset">!am mwg glset
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
         <a class="hx:ltr:pl-4 hx:rtl:pr-4 hx:inline-block hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:break-words" href="#am-mwg-set">!am mwg set
         </a>
       </li>
@@ -767,22 +771,73 @@
 </div>
 </div>
 <hr>
-<h3><code>!am mwg set</code><span class="hx:absolute hx:-mt-20" id="am-mwg-set"></span>
-    <a href="#am-mwg-set" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>Изменяет глобальные наказания и/или опции группы. Можно менять только наказания, только опции или оба параметра одновременно.</p>
-<p><strong>Формат:</strong>
-<code>!am mwg set &lt;название_группы&gt; &lt;*наказания&gt; &lt;*опции&gt;</code></p>
-<p><strong>Параметры:</strong></p>
-<ul>
-<li><code>&lt;название_группы&gt;</code> — существующая группа</li>
-<li><code>&lt;*наказания&gt;</code> — наказания через запятую</li>
-<li><code>&lt;*опции&gt;</code> — дополнительные параметры (см. <a href="options">Опции мутвордов</a>)</li>
-</ul>
-<p>Примеры:</p>
+<h3><code>!am mwg glset</code><span class="hx:absolute hx:-mt-20" id="am-mwg-glset"></span>
+    <a href="#am-mwg-glset" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>Изменяет <strong>глобальные наказания и/или опции</strong> существующей группы мутвордов.<br>
+Можно обновить только наказания, только опции или оба параметра одновременно.</p>
+<p><strong>Формат:</strong></p>
 <div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
 
-<div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>!am mwg set toxic -,600,0            # обновляет глобальные наказания
-</span></span><span style="display:flex;"><span>!am mwg set toxic -first              # обновляет только глобальные опции
-</span></span><span style="display:flex;"><span>!am mwg set toxic -first 60,600,0    # обновляет и опции, и наказания</span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+<div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>!am mwg glset &lt;название_группы&gt; &lt;*наказания&gt; &lt;*опции&gt;</span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+  <button
+    class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+    title="Copy code"
+  >
+    <div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div>
+<div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div>
+  </button>
+</div>
+</div>
+<p><strong>Параметры:</strong></p>
+<ul>
+<li><code>&lt;название_группы&gt;</code> — существующая группа мутвордов.</li>
+<li><code>&lt;*наказания&gt;</code> — список наказаний через запятую (например, <code>60,600,0</code>).</li>
+<li><code>&lt;*опции&gt;</code> — дополнительные параметры, изменяющие поведение группы (см. <a href="options">Опции мутвордов</a>).</li>
+</ul>
+<p><strong>Примеры:</strong></p>
+<div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+
+<div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>!am mwg glset toxic 60,600,0       # обновляет только глобальные наказания
+</span></span><span style="display:flex;"><span>!am mwg glset toxic -first         # обновляет только опции группы
+</span></span><span style="display:flex;"><span>!am mwg glset toxic 60,600,0 -all  # обновляет и наказания, и опции</span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+  <button
+    class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+    title="Copy code"
+  >
+    <div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div>
+<div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div>
+  </button>
+</div>
+</div>
+<hr>
+<h3><code>!am mwg set</code><span class="hx:absolute hx:-mt-20" id="am-mwg-set"></span>
+    <a href="#am-mwg-set" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>Изменяет <strong>наказания и/или опции для отдельных слов или выражений</strong> внутри группы мутвордов.<br>
+Можно обновить сразу несколько слов, разделяя их запятыми.</p>
+<p><strong>Формат:</strong></p>
+<div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+
+<div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>!am mwg set &lt;название_группы&gt; &lt;*наказания&gt; &lt;слова/фразы или regex&gt; &lt;*опции&gt;</span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+  <button
+    class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+    title="Copy code"
+  >
+    <div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div>
+<div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div>
+  </button>
+</div>
+</div>
+<p><strong>Параметры:</strong></p>
+<ul>
+<li><code>&lt;название_группы&gt;</code> — существующая группа мутвордов.</li>
+<li><code>&lt;*наказания&gt;</code> — список наказаний через запятую.</li>
+<li><code>&lt;слова/фразы или regex&gt;</code> — одно или несколько выражений, разделённых запятыми.</li>
+<li><code>&lt;*опции&gt;</code> — дополнительные параметры (см. <a href="options">Опции мутвордов</a>).</li>
+</ul>
+<p><strong>Примеры:</strong></p>
+<div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+
+<div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>!am mwg set toxic 60,600,0 idiot,stupid     # обновляет наказания для указанных слов
+</span></span><span style="display:flex;"><span>!am mwg set toxic -first idiot              # обновляет только опции слова
+</span></span><span style="display:flex;"><span>!am mwg set toxic 0 idiot,stupid -first     # обновляет и наказания, и опции</span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
   <button
     class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
     title="Copy code"
