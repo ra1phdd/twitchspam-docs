@@ -35,7 +35,7 @@
 !stats all Выводит общую статистику последнего стрима.
 Пример:
 !stats all Статистика включает:">
-  <meta itemprop="wordCount" content="142">
+  <meta itemprop="wordCount" content="152">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Статистика">
   <meta name="twitter:description" content="Раздел позволяет получать сводные данные о активности пользователей и стримов для анализа поведения чата и эффективности модерации.
@@ -631,11 +631,11 @@
         </a>
       </li>
       <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
-        <a class="hx:ltr:pl-4 hx:rtl:pr-4 hx:inline-block hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:break-words" href="#stats-%d0%bd%d0%b8%d0%ba%d0%bd%d0%b5%d0%b9%d0%bc">!stats &lt;никнейм&gt;
+        <a class="hx:ltr:pl-4 hx:rtl:pr-4 hx:inline-block hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:break-words" href="#stats">!stats
         </a>
       </li>
       <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
-        <a class="hx:ltr:pl-4 hx:rtl:pr-4 hx:inline-block hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:break-words" href="#stats-top-%d0%ba%d0%be%d0%bb-%d0%b2%d0%be-%d0%bf%d0%be%d0%bb%d1%8c%d0%b7%d0%be%d0%b2%d0%b0%d1%82%d0%b5%d0%bb%d0%b5%d0%b9">!stats top &lt;кол-во пользователей&gt;
+        <a class="hx:ltr:pl-4 hx:rtl:pr-4 hx:inline-block hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:break-words" href="#stats-top">!stats top
         </a>
       </li></ul>
       <div class="hx:mt-8 hx:border-t hx:bg-white hx:pt-8 hx:shadow-[0_-12px_16px_white] hx:dark:bg-dark hx:dark:shadow-[0_-12px_16px_#111] hx:sticky hx:bottom-0 hx:flex hx:flex-col hx:items-start hx:gap-2 hx:pb-8 hx:border-gray-200 hx:dark:border-neutral-800 hx:contrast-more:border-t hx:contrast-more:border-neutral-400 hx:contrast-more:shadow-none hx:contrast-more:dark:border-neutral-400">
@@ -684,9 +684,14 @@
 <li>Топ 3 продуктивных модераторов за стрим</li>
 </ul>
 <hr>
-<h3><code>!stats &lt;никнейм&gt;</code><span class="hx:absolute hx:-mt-20" id="stats-никнейм"></span>
-    <a href="#stats-%d0%bd%d0%b8%d0%ba%d0%bd%d0%b5%d0%b9%d0%bc" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>Отображает статистику пользователя за последний стрим.</p>
-<p><strong>Допустимые значения:</strong> никнейм пользователя или пустой аргумент (текущий пользователь).</p>
+<h3><code>!stats</code><span class="hx:absolute hx:-mt-20" id="stats"></span>
+    <a href="#stats" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>Отображает статистику пользователя за последний стрим.</p>
+<p><strong>Формат:</strong>
+<code>!stats &lt;*никнейм&gt;</code></p>
+<p><strong>Параметры:</strong></p>
+<ul>
+<li><code>&lt;*никнейм&gt;</code> - никнейм пользователя. Если не указано, выводится статистика пользователя, вызвавшего команду.</li>
+</ul>
 <p>Примеры:</p>
 <div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
 
@@ -709,9 +714,12 @@
 <li>Количество банов и мутов (только для модераторов)</li>
 </ul>
 <hr>
-<h3><code>!stats top &lt;кол-во пользователей&gt;</code><span class="hx:absolute hx:-mt-20" id="stats-top-кол-во-пользователей"></span>
-    <a href="#stats-top-%d0%ba%d0%be%d0%bb-%d0%b2%d0%be-%d0%bf%d0%be%d0%bb%d1%8c%d0%b7%d0%be%d0%b2%d0%b0%d1%82%d0%b5%d0%bb%d0%b5%d0%b9" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>Выводит топ активных пользователей за последний стрим. Полезно для выявления самых активных участников.</p>
-<p><strong>Допустимые значения:</strong> число от <code>1</code> до <code>100</code>. По умолчанию выводится <code>топ-10</code>.</p>
+<h3><code>!stats top</code><span class="hx:absolute hx:-mt-20" id="stats-top"></span>
+    <a href="#stats-top" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>Выводит топ активных пользователей за последний стрим. Полезно для выявления самых активных участников.</p>
+<p><strong>Формат:</strong>
+<code>!stats top &lt;*кол-во пользователей&gt;</code></p>
+<p><strong>Допустимые значения:</strong>
+число от <code>1</code> до <code>100</code>. Если не указано, выводится <code>топ-10</code>.</p>
 <p>Пример:</p>
 <div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
 

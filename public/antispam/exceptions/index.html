@@ -12,7 +12,7 @@
   <meta name="description" content="Исключения позволяют задать индивидуальные правила для определённых слов или регулярных выражений. Это нужно, чтобы конкретные слова/фразы не блокировались стандартными фильтрами или чтобы для них действовали собственные лимиты и наказания.
 !am ex list Показать список всех текущих исключений. Команда выводит список слов или регулярных выражений с их лимитами сообщений и наказаниями.
 Пример:
-!am ex list !am ex (add) &lt;лимит&gt; &lt;наказания&gt; &lt;слова/фразы через запятую&gt; &lt;*опции&gt; !am ex (add) &lt;лимит&gt; &lt;наказания&gt; re &lt;имя&gt; &lt;регулярное выражение&gt; &lt;*опции&gt; Добавляет новое исключение в систему фильтрации сообщений. Исключение может быть обычным (по словам/фразам) или на основе регулярного выражения." /><link rel="canonical" href="https://example.org/antispam/exceptions/" itemprop="url" />
+!am ex list !am ex add Добавляет новое исключение в систему фильтрации сообщений. Исключение может быть обычным (по словам/фразам) или на основе регулярного выражения." /><link rel="canonical" href="https://example.org/antispam/exceptions/" itemprop="url" />
 
 <meta property="og:title" content="Исключения">
 <meta
@@ -33,8 +33,7 @@
 
 
 
-!am ex (add) &lt;лимит&gt; &lt;наказания&gt; &lt;слова/фразы через запятую&gt; &lt;*опции&gt;
-    !am ex (add) &lt;лимит&gt; &lt;наказания&gt; re &lt;имя&gt; &lt;регулярное выражение&gt; &lt;*опции&gt;
+!am ex add
     Добавляет новое исключение в систему фильтрации сообщений. Исключение может быть обычным (по словам/фразам) или на основе регулярного выражения.
     
   ">
@@ -52,14 +51,14 @@
   <meta itemprop="description" content="Исключения позволяют задать индивидуальные правила для определённых слов или регулярных выражений. Это нужно, чтобы конкретные слова/фразы не блокировались стандартными фильтрами или чтобы для них действовали собственные лимиты и наказания.
 !am ex list Показать список всех текущих исключений. Команда выводит список слов или регулярных выражений с их лимитами сообщений и наказаниями.
 Пример:
-!am ex list !am ex (add) &lt;лимит&gt; &lt;наказания&gt; &lt;слова/фразы через запятую&gt; &lt;*опции&gt; !am ex (add) &lt;лимит&gt; &lt;наказания&gt; re &lt;имя&gt; &lt;регулярное выражение&gt; &lt;*опции&gt; Добавляет новое исключение в систему фильтрации сообщений. Исключение может быть обычным (по словам/фразам) или на основе регулярного выражения.">
-  <meta itemprop="wordCount" content="428">
+!am ex list !am ex add Добавляет новое исключение в систему фильтрации сообщений. Исключение может быть обычным (по словам/фразам) или на основе регулярного выражения.">
+  <meta itemprop="wordCount" content="449">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Исключения">
   <meta name="twitter:description" content="Исключения позволяют задать индивидуальные правила для определённых слов или регулярных выражений. Это нужно, чтобы конкретные слова/фразы не блокировались стандартными фильтрами или чтобы для них действовали собственные лимиты и наказания.
 !am ex list Показать список всех текущих исключений. Команда выводит список слов или регулярных выражений с их лимитами сообщений и наказаниями.
 Пример:
-!am ex list !am ex (add) &lt;лимит&gt; &lt;наказания&gt; &lt;слова/фразы через запятую&gt; &lt;*опции&gt; !am ex (add) &lt;лимит&gt; &lt;наказания&gt; re &lt;имя&gt; &lt;регулярное выражение&gt; &lt;*опции&gt; Добавляет новое исключение в систему фильтрации сообщений. Исключение может быть обычным (по словам/фразам) или на основе регулярного выражения.">
+!am ex list !am ex add Добавляет новое исключение в систему фильтрации сообщений. Исключение может быть обычным (по словам/фразам) или на основе регулярного выражения.">
 
     <link rel="preload" href="/css/compiled/main.min.860421afd86baea436520550e3f5b912c5d0ca8bfec32b073ac5871b3ae0ca74.css" as="style" integrity="sha256-hgQhr9hrrqQ2UgVQ4/W5EsXQyov&#43;wysHOsWHGzrgynQ=" />
     <link href="/css/compiled/main.min.860421afd86baea436520550e3f5b912c5d0ca8bfec32b073ac5871b3ae0ca74.css" rel="stylesheet" integrity="sha256-hgQhr9hrrqQ2UgVQ4/W5EsXQyov&#43;wysHOsWHGzrgynQ=" />
@@ -649,27 +648,23 @@
         </a>
       </li>
       <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
-        <a class="hx:ltr:pl-4 hx:rtl:pr-4 hx:inline-block hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:break-words" href="#am-ex-add-%d0%bb%d0%b8%d0%bc%d0%b8%d1%82-%d0%bd%d0%b0%d0%ba%d0%b0%d0%b7%d0%b0%d0%bd%d0%b8%d1%8f-%d1%81%d0%bb%d0%be%d0%b2%d0%b0%d1%84%d1%80%d0%b0%d0%b7%d1%8b-%d1%87%d0%b5%d1%80%d0%b5%d0%b7-%d0%b7%d0%b0%d0%bf%d1%8f%d1%82%d1%83%d1%8e-%d0%be%d0%bf%d1%86%d0%b8%d0%b8">!am ex (add) &lt;лимит&gt; &lt;наказания&gt; &lt;слова/фразы через запятую&gt; &lt;*опции&gt;
+        <a class="hx:ltr:pl-4 hx:rtl:pr-4 hx:inline-block hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:break-words" href="#am-ex-add">!am ex add
         </a>
       </li>
       <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
-        <a class="hx:ltr:pl-4 hx:rtl:pr-4 hx:inline-block hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:break-words" href="#am-ex-add-%d0%bb%d0%b8%d0%bc%d0%b8%d1%82-%d0%bd%d0%b0%d0%ba%d0%b0%d0%b7%d0%b0%d0%bd%d0%b8%d1%8f-re-%d0%b8%d0%bc%d1%8f-%d1%80%d0%b5%d0%b3%d1%83%d0%bb%d1%8f%d1%80%d0%bd%d0%be%d0%b5-%d0%b2%d1%8b%d1%80%d0%b0%d0%b6%d0%b5%d0%bd%d0%b8%d0%b5-%d0%be%d0%bf%d1%86%d0%b8%d0%b8">!am ex (add) &lt;лимит&gt; &lt;наказания&gt; re &lt;имя&gt; &lt;регулярное выражение&gt; &lt;*опции&gt;
+        <a class="hx:ltr:pl-4 hx:rtl:pr-4 hx:inline-block hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:break-words" href="#am-ex-set-ml">!am ex set ml
         </a>
       </li>
       <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
-        <a class="hx:ltr:pl-4 hx:rtl:pr-4 hx:inline-block hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:break-words" href="#am-ex-set-ml-%d0%bb%d0%b8%d0%bc%d0%b8%d1%82-%d1%81%d0%bb%d0%be%d0%b2%d0%b0%d1%84%d1%80%d0%b0%d0%b7%d1%8b%d0%b8%d0%bc%d1%8f-regex-%d0%be%d0%bf%d1%86%d0%b8%d0%b8">!am ex set ml &lt;лимит&gt; &lt;слова/фразы/имя regex&gt; &lt;*опции&gt;
+        <a class="hx:ltr:pl-4 hx:rtl:pr-4 hx:inline-block hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:break-words" href="#am-ex-set-p">!am ex set p
         </a>
       </li>
       <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
-        <a class="hx:ltr:pl-4 hx:rtl:pr-4 hx:inline-block hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:break-words" href="#am-ex-set-p-%d0%bd%d0%b0%d0%ba%d0%b0%d0%b7%d0%b0%d0%bd%d0%b8%d1%8f-%d1%81%d0%bb%d0%be%d0%b2%d0%b0%d1%84%d1%80%d0%b0%d0%b7%d1%8b%d0%b8%d0%bc%d1%8f-regex-%d0%be%d0%bf%d1%86%d0%b8%d0%b8">!am ex set p &lt;наказания&gt; &lt;слова/фразы/имя regex&gt; &lt;*опции&gt;
+        <a class="hx:ltr:pl-4 hx:rtl:pr-4 hx:inline-block hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:break-words" href="#am-ex-set">!am ex set
         </a>
       </li>
       <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
-        <a class="hx:ltr:pl-4 hx:rtl:pr-4 hx:inline-block hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:break-words" href="#am-ex-set-%d1%81%d0%bb%d0%be%d0%b2%d0%b0%d1%84%d1%80%d0%b0%d0%b7%d1%8b%d0%b8%d0%bc%d1%8f-regex-%d0%be%d0%bf%d1%86%d0%b8%d0%b8">!am ex set &lt;слова/фразы/имя regex&gt; &lt;опции&gt;
-        </a>
-      </li>
-      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
-        <a class="hx:ltr:pl-4 hx:rtl:pr-4 hx:inline-block hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:break-words" href="#am-ex-del-%d1%81%d0%bb%d0%be%d0%b2%d0%b0%d1%84%d1%80%d0%b0%d0%b7%d1%8b%d0%b8%d0%bc%d1%8f-regex">!am ex del &lt;слова/фразы/имя regex&gt;
+        <a class="hx:ltr:pl-4 hx:rtl:pr-4 hx:inline-block hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:break-words" href="#am-ex-del">!am ex del
         </a>
       </li></ul>
       <div class="hx:mt-8 hx:border-t hx:bg-white hx:pt-8 hx:shadow-[0_-12px_16px_white] hx:dark:bg-dark hx:dark:shadow-[0_-12px_16px_#111] hx:sticky hx:bottom-0 hx:flex hx:flex-col hx:items-start hx:gap-2 hx:pb-8 hx:border-gray-200 hx:dark:border-neutral-800 hx:contrast-more:border-t hx:contrast-more:border-neutral-400 hx:contrast-more:shadow-none hx:contrast-more:dark:border-neutral-400">
@@ -706,9 +701,13 @@
 </div>
 </div>
 <hr>
-<h3><code>!am ex (add) &lt;лимит&gt; &lt;наказания&gt; &lt;слова/фразы через запятую&gt; &lt;*опции&gt;</code><span class="hx:absolute hx:-mt-20" id="am-ex-add-лимит-наказания-словафразы-через-запятую-опции"></span>
-    <a href="#am-ex-add-%d0%bb%d0%b8%d0%bc%d0%b8%d1%82-%d0%bd%d0%b0%d0%ba%d0%b0%d0%b7%d0%b0%d0%bd%d0%b8%d1%8f-%d1%81%d0%bb%d0%be%d0%b2%d0%b0%d1%84%d1%80%d0%b0%d0%b7%d1%8b-%d1%87%d0%b5%d1%80%d0%b5%d0%b7-%d0%b7%d0%b0%d0%bf%d1%8f%d1%82%d1%83%d1%8e-%d0%be%d0%bf%d1%86%d0%b8%d0%b8" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><h3><code>!am ex (add) &lt;лимит&gt; &lt;наказания&gt; re &lt;имя&gt; &lt;регулярное выражение&gt; &lt;*опции&gt;</code><span class="hx:absolute hx:-mt-20" id="am-ex-add-лимит-наказания-re-имя-регулярное-выражение-опции"></span>
-    <a href="#am-ex-add-%d0%bb%d0%b8%d0%bc%d0%b8%d1%82-%d0%bd%d0%b0%d0%ba%d0%b0%d0%b7%d0%b0%d0%bd%d0%b8%d1%8f-re-%d0%b8%d0%bc%d1%8f-%d1%80%d0%b5%d0%b3%d1%83%d0%bb%d1%8f%d1%80%d0%bd%d0%be%d0%b5-%d0%b2%d1%8b%d1%80%d0%b0%d0%b6%d0%b5%d0%bd%d0%b8%d0%b5-%d0%be%d0%bf%d1%86%d0%b8%d0%b8" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>Добавляет новое исключение в систему фильтрации сообщений. Исключение может быть обычным (по словам/фразам) или на основе регулярного выражения.</p>
+<h3><code>!am ex add</code><span class="hx:absolute hx:-mt-20" id="am-ex-add"></span>
+    <a href="#am-ex-add" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>Добавляет новое исключение в систему фильтрации сообщений. Исключение может быть обычным (по словам/фразам) или на основе регулярного выражения.</p>
+<p><strong>Формат:</strong></p>
+<ul>
+<li><code>!am ex (add) &lt;лимит&gt; &lt;наказания&gt; &lt;слова/фразы через запятую&gt; &lt;*опции&gt;</code></li>
+<li><code>!am ex (add) &lt;лимит&gt; &lt;наказания&gt; re &lt;имя&gt; &lt;регулярное выражение&gt; &lt;*опции&gt;</code></li>
+</ul>
 <p><strong>Параметры:</strong></p>
 <ul>
 <li><code>&lt;лимит&gt;</code> — число сообщений, после которых применяется исключение (<code>2–15</code>).</li>
@@ -728,7 +727,7 @@
 <div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
 
 <div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>!am ex add 5 - привет,здравствуйте
-</span></span><span style="display:flex;"><span>!am ex add 10 300 слово
+</span></span><span style="display:flex;"><span>!am ex 10 300 слово
 </span></span><span style="display:flex;"><span>!am ex add 3 0 -regex ^spam[0-9]+
 </span></span><span style="display:flex;"><span>!am ex 4 *,1-600 привет,пока
 </span></span><span style="display:flex;"><span>!am ex add 2 * re spam_rule ^spam[0-9]+$</span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
@@ -742,8 +741,10 @@
 </div>
 </div>
 <hr>
-<h3><code>!am ex set ml &lt;лимит&gt; &lt;слова/фразы/имя regex&gt; &lt;*опции&gt;</code><span class="hx:absolute hx:-mt-20" id="am-ex-set-ml-лимит-словафразыимя-regex-опции"></span>
-    <a href="#am-ex-set-ml-%d0%bb%d0%b8%d0%bc%d0%b8%d1%82-%d1%81%d0%bb%d0%be%d0%b2%d0%b0%d1%84%d1%80%d0%b0%d0%b7%d1%8b%d0%b8%d0%bc%d1%8f-regex-%d0%be%d0%bf%d1%86%d0%b8%d0%b8" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>Изменяет лимит сообщений для существующих исключений. Можно указать одно или несколько слов, фраз или имён регулярных выражений через запятую.</p>
+<h3><code>!am ex set ml</code><span class="hx:absolute hx:-mt-20" id="am-ex-set-ml"></span>
+    <a href="#am-ex-set-ml" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>Изменяет лимит сообщений для существующих исключений. Можно указать одно или несколько слов, фраз или имён регулярных выражений через запятую.</p>
+<p><strong>Формат:</strong>
+<code>!am ex set ml &lt;лимит&gt; &lt;слова/фразы/имя regex&gt; &lt;*опции&gt;</code></p>
 <p><strong>Параметры:</strong></p>
 <ul>
 <li><code>&lt;лимит&gt;</code> — новое количество сообщений.</li>
@@ -765,8 +766,10 @@
 </div>
 <p>Лимит сообщений для исключений <code>привет</code> и <code>пока</code> будет изменён на <strong>10 сообщений</strong>.</p>
 <hr>
-<h3><code>!am ex set p &lt;наказания&gt; &lt;слова/фразы/имя regex&gt; &lt;*опции&gt;</code><span class="hx:absolute hx:-mt-20" id="am-ex-set-p-наказания-словафразыимя-regex-опции"></span>
-    <a href="#am-ex-set-p-%d0%bd%d0%b0%d0%ba%d0%b0%d0%b7%d0%b0%d0%bd%d0%b8%d1%8f-%d1%81%d0%bb%d0%be%d0%b2%d0%b0%d1%84%d1%80%d0%b0%d0%b7%d1%8b%d0%b8%d0%bc%d1%8f-regex-%d0%be%d0%bf%d1%86%d0%b8%d0%b8" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>Изменяет наказания, применяемые к существующим исключениям.</p>
+<h3><code>!am ex set p</code><span class="hx:absolute hx:-mt-20" id="am-ex-set-p"></span>
+    <a href="#am-ex-set-p" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>Изменяет наказания, применяемые к существующим исключениям.</p>
+<p><strong>Формат:</strong>
+<code>!am ex set p &lt;наказания&gt; &lt;слова/фразы/имя regex&gt; &lt;*опции&gt;</code></p>
 <p><strong>Параметры:</strong></p>
 <ul>
 <li><code>&lt;наказания&gt;</code> — список наказаний через запятую (см. <a href="#am-ex-add-%d0%bb%d0%b8%d0%bc%d0%b8%d1%82-%d0%bd%d0%b0%d0%ba%d0%b0%d0%b7%d0%b0%d0%bd%d0%b8%d1%8f-%d1%81%d0%bb%d0%be%d0%b2%d0%b0%d1%80%d0%b0%d0%b3%d0%b5%d1%85">!am ex add</a>).</li>
@@ -788,8 +791,10 @@
 </div>
 <p>Для исключения <code>привет</code> теперь будут применяться наказания в следующем порядке: удаление сообщения, таймаут на 600 секунд, бан.</p>
 <hr>
-<h3><code>!am ex set &lt;слова/фразы/имя regex&gt; &lt;опции&gt;</code><span class="hx:absolute hx:-mt-20" id="am-ex-set-словафразыимя-regex-опции"></span>
-    <a href="#am-ex-set-%d1%81%d0%bb%d0%be%d0%b2%d0%b0%d1%84%d1%80%d0%b0%d0%b7%d1%8b%d0%b8%d0%bc%d1%8f-regex-%d0%be%d0%bf%d1%86%d0%b8%d0%b8" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>Изменяет дополнительные параметры исключений, не затрагивая лимиты или наказания.</p>
+<h3><code>!am ex set</code><span class="hx:absolute hx:-mt-20" id="am-ex-set"></span>
+    <a href="#am-ex-set" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>Изменяет дополнительные параметры исключений, не затрагивая лимиты или наказания.</p>
+<p><strong>Формат:</strong>
+<code>!am ex set &lt;слова/фразы/имя regex&gt; &lt;опции&gt;</code></p>
 <p><strong>Параметры:</strong></p>
 <ul>
 <li><code>&lt;слова/фразы/имя regex&gt;</code> — одно или несколько слов, фраз или имён регулярных выражений.</li>
@@ -810,8 +815,10 @@
 </div>
 <p>Для исключения <code>привет</code> будут изменены общие опции — теперь оно не действует для випов и платных подписчиков канала.</p>
 <hr>
-<h3><code>!am ex del &lt;слова/фразы/имя regex&gt;</code><span class="hx:absolute hx:-mt-20" id="am-ex-del-словафразыимя-regex"></span>
-    <a href="#am-ex-del-%d1%81%d0%bb%d0%be%d0%b2%d0%b0%d1%84%d1%80%d0%b0%d0%b7%d1%8b%d0%b8%d0%bc%d1%8f-regex" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>Удалить одно или несколько исключений. Указываются через запятую.</p>
+<h3><code>!am ex del</code><span class="hx:absolute hx:-mt-20" id="am-ex-del"></span>
+    <a href="#am-ex-del" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>Удалить одно или несколько исключений. Указываются через запятую.</p>
+<p><strong>Формат:</strong>
+<code>!am ex del &lt;слова/фразы/имя regex&gt;</code></p>
 <p><strong>Допустимые значения:</strong></p>
 <ul>
 <li><strong>&lt;слова/фразы/имя regex&gt;</strong> — одно или несколько слов, фраз или имя регулярного выражения.</li>
