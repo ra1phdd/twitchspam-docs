@@ -38,6 +38,10 @@
   </url><url>
     <loc>https://example.org/stream-info/</loc>
   </url><url>
+    <loc>https://example.org/predictions/</loc>
+  </url><url>
+    <loc>https://example.org/polls/</loc>
+  </url><url>
     <loc>https://example.org/automod/</loc>
   </url><url>
     <loc>https://example.org/markers/</loc>

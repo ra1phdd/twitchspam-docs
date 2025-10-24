@@ -1,7 +1,7 @@
 ---
 title: Автомод
 breadcrumbs: false
-weight: 8
+weight: 10
 cascade:
   type: docs
 ---

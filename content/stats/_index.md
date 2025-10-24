@@ -1,7 +1,7 @@
 ---
 title: Статистика
 breadcrumbs: false
-weight: 10
+weight: 12
 cascade:
   type: docs
 ---

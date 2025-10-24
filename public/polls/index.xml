@@ -1,0 +1,18 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>aFsYGGABot – Опросы</title>
+    <link>https://example.org/polls/</link>
+    <description>Recent content in Опросы on aFsYGGABot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru-ru</language>
+    
+	  <atom:link href="https://example.org/polls/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+  </channel>
+</rss>
