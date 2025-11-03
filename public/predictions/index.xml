@@ -1,12 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>aFsYGGABot – Ставки</title>
-    <link>https://example.org/predictions/</link>
+    <link>http://localhost:1313/predictions/</link>
     <description>Recent content in Ставки on aFsYGGABot</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     
-	  <atom:link href="https://example.org/predictions/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://localhost:1313/predictions/index.xml" rel="self" type="application/rss+xml" />
     
     
       

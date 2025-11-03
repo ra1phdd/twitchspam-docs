@@ -2,64 +2,64 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.org/antispam/default-settings/</loc>
+    <loc>http://localhost:1313/antispam/default-settings/</loc>
   </url><url>
-    <loc>https://example.org/cmd/options/</loc>
+    <loc>http://localhost:1313/cmd/options/</loc>
   </url><url>
-    <loc>https://example.org/auth/</loc>
+    <loc>http://localhost:1313/auth/</loc>
   </url><url>
-    <loc>https://example.org/antispam/vip-settings/</loc>
+    <loc>http://localhost:1313/antispam/vip-settings/</loc>
   </url><url>
-    <loc>https://example.org/main/</loc>
+    <loc>http://localhost:1313/main/</loc>
   </url><url>
-    <loc>https://example.org/cmd/timers/</loc>
+    <loc>http://localhost:1313/cmd/timers/</loc>
   </url><url>
-    <loc>https://example.org/antispam/</loc>
+    <loc>http://localhost:1313/antispam/</loc>
   </url><url>
-    <loc>https://example.org/antispam/emote-settings/</loc>
+    <loc>http://localhost:1313/antispam/emote-settings/</loc>
   </url><url>
-    <loc>https://example.org/cmd/timers-options/</loc>
+    <loc>http://localhost:1313/cmd/timers-options/</loc>
   </url><url>
-    <loc>https://example.org/antispam/whitelist/</loc>
+    <loc>http://localhost:1313/antispam/whitelist/</loc>
   </url><url>
-    <loc>https://example.org/cmd/limiters/</loc>
+    <loc>http://localhost:1313/cmd/limiters/</loc>
   </url><url>
-    <loc>https://example.org/mword/</loc>
+    <loc>http://localhost:1313/mword/</loc>
   </url><url>
-    <loc>https://example.org/cmd/aliases/</loc>
+    <loc>http://localhost:1313/cmd/aliases/</loc>
   </url><url>
-    <loc>https://example.org/antispam/exceptions/</loc>
+    <loc>http://localhost:1313/antispam/exceptions/</loc>
   </url><url>
-    <loc>https://example.org/cmd/</loc>
+    <loc>http://localhost:1313/cmd/</loc>
   </url><url>
-    <loc>https://example.org/cmd/aliases-groups/</loc>
+    <loc>http://localhost:1313/cmd/aliases-groups/</loc>
   </url><url>
-    <loc>https://example.org/nuke/</loc>
+    <loc>http://localhost:1313/nuke/</loc>
   </url><url>
-    <loc>https://example.org/stream-info/</loc>
+    <loc>http://localhost:1313/stream-info/</loc>
   </url><url>
-    <loc>https://example.org/predictions/</loc>
+    <loc>http://localhost:1313/predictions/</loc>
   </url><url>
-    <loc>https://example.org/polls/</loc>
+    <loc>http://localhost:1313/polls/</loc>
   </url><url>
-    <loc>https://example.org/automod/</loc>
+    <loc>http://localhost:1313/automod/</loc>
   </url><url>
-    <loc>https://example.org/markers/</loc>
+    <loc>http://localhost:1313/markers/</loc>
   </url><url>
-    <loc>https://example.org/stats/</loc>
+    <loc>http://localhost:1313/stats/</loc>
   </url><url>
-    <loc>https://example.org/other/</loc>
+    <loc>http://localhost:1313/other/</loc>
   </url><url>
-    <loc>https://example.org/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://example.org/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url><url>
-    <loc>https://example.org/mword/group/</loc>
+    <loc>http://localhost:1313/mword/group/</loc>
   </url><url>
-    <loc>https://example.org/antispam/exceptions-options/</loc>
+    <loc>http://localhost:1313/antispam/exceptions-options/</loc>
   </url><url>
-    <loc>https://example.org/mword/options/</loc>
+    <loc>http://localhost:1313/mword/options/</loc>
   </url><url>
-    <loc>https://example.org/</loc>
+    <loc>http://localhost:1313/</loc>
   </url>
 </urlset>
