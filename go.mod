@@ -1,5 +1,5 @@
 module github.com/username/my-site
 
-go 1.24.6
+go 1.24
 
-require github.com/imfing/hextra v0.11.1 // indirect
+require github.com/imfing/hextra v0.12.3 // indirect

@@ -2,64 +2,68 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/antispam/default-settings/</loc>
+    <loc>https://docs.r1ph.com/afsyggabot/other/mod-actions/</loc>
   </url><url>
-    <loc>http://localhost:1313/cmd/options/</loc>
+    <loc>https://docs.r1ph.com/afsyggabot/antispam/default-settings/</loc>
   </url><url>
-    <loc>http://localhost:1313/auth/</loc>
+    <loc>https://docs.r1ph.com/afsyggabot/cmd/options/</loc>
   </url><url>
-    <loc>http://localhost:1313/antispam/vip-settings/</loc>
+    <loc>https://docs.r1ph.com/afsyggabot/auth/</loc>
   </url><url>
-    <loc>http://localhost:1313/main/</loc>
+    <loc>https://docs.r1ph.com/afsyggabot/other/access/</loc>
   </url><url>
-    <loc>http://localhost:1313/cmd/timers/</loc>
+    <loc>https://docs.r1ph.com/afsyggabot/antispam/vip-settings/</loc>
   </url><url>
-    <loc>http://localhost:1313/antispam/</loc>
+    <loc>https://docs.r1ph.com/afsyggabot/main/</loc>
   </url><url>
-    <loc>http://localhost:1313/antispam/emote-settings/</loc>
+    <loc>https://docs.r1ph.com/afsyggabot/cmd/timers/</loc>
   </url><url>
-    <loc>http://localhost:1313/cmd/timers-options/</loc>
+    <loc>https://docs.r1ph.com/afsyggabot/antispam/</loc>
   </url><url>
-    <loc>http://localhost:1313/antispam/whitelist/</loc>
+    <loc>https://docs.r1ph.com/afsyggabot/antispam/emote-settings/</loc>
   </url><url>
-    <loc>http://localhost:1313/cmd/limiters/</loc>
+    <loc>https://docs.r1ph.com/afsyggabot/cmd/timers-options/</loc>
   </url><url>
-    <loc>http://localhost:1313/mword/</loc>
+    <loc>https://docs.r1ph.com/afsyggabot/antispam/whitelist/</loc>
   </url><url>
-    <loc>http://localhost:1313/cmd/aliases/</loc>
+    <loc>https://docs.r1ph.com/afsyggabot/cmd/limiters/</loc>
   </url><url>
-    <loc>http://localhost:1313/antispam/exceptions/</loc>
+    <loc>https://docs.r1ph.com/afsyggabot/mword/</loc>
   </url><url>
-    <loc>http://localhost:1313/cmd/</loc>
+    <loc>https://docs.r1ph.com/afsyggabot/cmd/aliases/</loc>
   </url><url>
-    <loc>http://localhost:1313/cmd/aliases-groups/</loc>
+    <loc>https://docs.r1ph.com/afsyggabot/antispam/exceptions/</loc>
   </url><url>
-    <loc>http://localhost:1313/nuke/</loc>
+    <loc>https://docs.r1ph.com/afsyggabot/cmd/</loc>
   </url><url>
-    <loc>http://localhost:1313/stream-info/</loc>
+    <loc>https://docs.r1ph.com/afsyggabot/cmd/aliases-groups/</loc>
   </url><url>
-    <loc>http://localhost:1313/predictions/</loc>
+    <loc>https://docs.r1ph.com/afsyggabot/nuke/</loc>
   </url><url>
-    <loc>http://localhost:1313/polls/</loc>
+    <loc>https://docs.r1ph.com/afsyggabot/stream-info/</loc>
   </url><url>
-    <loc>http://localhost:1313/automod/</loc>
+    <loc>https://docs.r1ph.com/afsyggabot/predictions/</loc>
   </url><url>
-    <loc>http://localhost:1313/markers/</loc>
+    <loc>https://docs.r1ph.com/afsyggabot/polls/</loc>
   </url><url>
-    <loc>http://localhost:1313/stats/</loc>
+    <loc>https://docs.r1ph.com/afsyggabot/automod/</loc>
   </url><url>
-    <loc>http://localhost:1313/other/</loc>
+    <loc>https://docs.r1ph.com/afsyggabot/markers/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://docs.r1ph.com/afsyggabot/stats/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://docs.r1ph.com/afsyggabot/other/</loc>
   </url><url>
-    <loc>http://localhost:1313/mword/group/</loc>
+    <loc>https://docs.r1ph.com/afsyggabot/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/antispam/exceptions-options/</loc>
+    <loc>https://docs.r1ph.com/afsyggabot/tags/</loc>
   </url><url>
-    <loc>http://localhost:1313/mword/options/</loc>
+    <loc>https://docs.r1ph.com/afsyggabot/mword/group/</loc>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://docs.r1ph.com/afsyggabot/antispam/exceptions-options/</loc>
+  </url><url>
+    <loc>https://docs.r1ph.com/afsyggabot/mword/options/</loc>
+  </url><url>
+    <loc>https://docs.r1ph.com/afsyggabot/</loc>
   </url>
 </urlset>
